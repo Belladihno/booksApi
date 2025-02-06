@@ -12,7 +12,9 @@
   "type": "module",
   "scripts": {
     "start": "node backend/server.js",
-    "dev": "nodemon backend/server.js"
+    "dev": "nodemon backend/server.js",
+    "debug": "ndb node backend/server.js"
+    
   },
   "author": "Bellanzo",
   "license": "MIT",
