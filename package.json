@@ -13,10 +13,13 @@
   "scripts": {
     "start": "node backend/server.js",
     "dev": "nodemon backend/server.js",
-    "debug": "ndb node backend/server.js"
-    
+    "debug": "ndb node backend/server.js",
+    "start:prod": "cross-env NODE_ENV=production node backend/server.js"
   },
   "author": "Bellanzo",
   "license": "MIT",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
 }

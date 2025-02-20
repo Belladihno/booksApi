@@ -9,8 +9,8 @@ const bookSchema = new mongoose.Schema(
       required: [true, 'A book must have a title'],
       trim: true,
       unique: true,
-      maxlength: [40, 'A book title must have less or equal then 40 characters'],
-      minlength: [10, 'A book title must have more or equal then 10 characters'],
+      maxlength: [40, 'A book title must have less or equal than 40 characters'],
+      minlength: [10, 'A book title must have more or equal than 10 characters'],
       // validate: [validator.isAlpha, 'Book title must only contain characters']
     },
     slug: String,
